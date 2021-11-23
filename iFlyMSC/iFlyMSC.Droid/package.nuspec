@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>iFlyMSC.Droid</id>
+    <!--*-->
+    <version>1.0.0</version>
+    <title>iFlyMSC.Droid</title>
+    <!--*-->
+    <authors>jacedeng</authors>
+    <owners>jacedeng</owners>
+    <!--
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>讯飞语音sdk xamarin包 </description>
+    <!--*-->
+    <releaseNotes>讯飞语音sdk xamarin包 </releaseNotes>
+    <copyright>Copyright ©  2018</copyright>
+    <tags>
+    </tags>
+    <dependencies>
+      <!--
+      <dependency id="SampleDependency" version="1.0" />
+-->
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,32 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr  path="/api/package[@name='com.baidu.mapapi.map']/interface[@name='BaiduMap.OnMapStatusChangeListener']/method[@name='onMapStatusChangeStart' and count(parameter)=2 and parameter[1][@type='com.baidu.mapapi.map.MapStatus'] and parameter[2][@type='int']]"
+	 name="eventName"
+  ></attr>
+ <attr  path="/api/package[@name='com.baidu.platform.comapi.map']/interface[@name='NaviMapViewListener']/method[@name='onMapRenderModeChange' and count(parameter)=1 and parameter[1][@type='int']]"
+	name="argsType"
+	>MapRenderModeChange2EventArgs</attr>
+
+
+	<attr  path="/api/package[@name='com.baidu.platform.comapi.map']/interface[@name='NaviMapViewListener']/method[@name='onMapRenderModeChange' and count(parameter)=1 and parameter[1][@type='int']]"
+   name="eventName"
+	>MapRenderModeChange2</attr>
+ <attr path="/api/package[@name='com.baidu.platform.comapi.map']/interface[@name='NaviMapViewListener']/method[@name='onMapAnimationFinish' and count(parameter)=0]"
+	name="eventName">MapAnimationFinish2</attr> 
+
+	<add-node path="/api/package[@name='com.baidu.platform.comapi.map']/class[@name='ItemizedOverlay']">
+
+		<method abstract="false" deprecated="not deprecated" final="false" name="compare" jni-signature="(Ljava/lang/Integer;Ljava/lang/Integer;)I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public">
+			<parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+			</parameter>
+			<parameter name="p1" type="java.lang.Object" jni-type="Ljava/lang/Object;">
+			</parameter>
+		</method>
+	</add-node>
+</metadata>

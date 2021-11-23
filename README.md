@@ -71,3 +71,6 @@ https://opendocs.alipay.com/iot/01kjr6
 
 ### 17、讯飞语音合成 离线sdk 语音唤醒 语音识别相关sdk 绑定
 https://www.xfyun.cn/doc/tts/offline_tts/Android-SDK.html#_2%E3%80%81sdk%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97
+
+
+### 18、 百度地图
