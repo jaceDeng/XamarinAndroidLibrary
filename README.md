@@ -1,7 +1,5 @@
  
-## 目前 维护换了个仓库放在了}
-**XamarinAndroidLibrary**  这个地方
-*** 
+ 
 
 ## XamainAndroidBindLibary
 自己做的一些安卓绑定好的第三方库并带demo的项目
