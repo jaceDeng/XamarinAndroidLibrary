@@ -1,3 +1,8 @@
+ 
+## 目前 维护换了个仓库放在了}
+**XamarinAndroidLibrary**  这个地方
+*** 
+
 ## XamainAndroidBindLibary
 自己做的一些安卓绑定好的第三方库并带demo的项目
 <label style="color:red">喜欢请帮我点个star</label>
@@ -7,7 +12,7 @@
 以下demo都是以真机为主。如果想在模拟器运行。请注意拷贝x86相关so文件到lib中
 
 ### 1、信鸽推送demo已经完成
-<img src="https://raw.githubusercontent.com/jsonsugar/XamainAndroidBindLibary/master/Screenshot/xinge-push-demo.png" width="30%"  style="width:30%"/>
+<img src="https://raw.githubusercontent.com/jaceDeng/XamarinAndroidLibrary/master/Screenshot/xinge-push-demo.png" width="30%"  style="width:30%"/>
 
 <https://github.com/jsonsugar/XamainAndroidBindLibary/tree/master/Xg-Push/XinGeDemo>
 
@@ -24,11 +29,11 @@
 
 ### 4、有赞商场集成到你app
 
-<img src="https://raw.githubusercontent.com/jsonsugar/XamainAndroidBindLibary/master/Screenshot/youzan.png" width="30%"  style="width:30%"/>
+<img src="https://raw.githubusercontent.com/jaceDeng/XamarinAndroidLibrary/master/Screenshot/youzan.png" width="30%"  style="width:30%"/>
 <https://github.com/youzan/YouzanMobileSDK-Android/>
 
 ### 5、阿里云播放器
-<img src="https://github.com/jsonsugar/XamainAndroidBindLibary/blob/master/Screenshot/alivec.jpg?raw=true" width="30%"  style="width:30%"/>
+<img src="https://github.com/jaceDeng/XamarinAndroidLibrary/blob/master/Screenshot/alivec.jpg?raw=true" width="30%"  style="width:30%"/>
 
 ### 6、增加一个安卓的摄像头预览的demo演示
 新的安卓版本导致预览会非常麻烦 比如我们要在预览中加个框框或者设计个图标之类的 需要用到预览实现 所以我编写了一个demo 方便大家定制化摄像头预览
@@ -71,3 +76,6 @@ https://opendocs.alipay.com/iot/01kjr6
 
 ### 17、讯飞语音合成 离线sdk 语音唤醒 语音识别相关sdk 绑定
 https://www.xfyun.cn/doc/tts/offline_tts/Android-SDK.html#_2%E3%80%81sdk%E9%9B%86%E6%88%90%E6%8C%87%E5%8D%97
+
+
+### 18、 百度地图
