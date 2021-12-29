@@ -1,58 +1,331 @@
 ﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+	<attr path="/api/package[@name='com.iflytek.cloud.a.a']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.a']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.a']/class[@name='b.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.b']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.b']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.b']/class[@name='c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.c']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.c']/class[@name='a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.c']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.c']/class[@name='b.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.c']/class[@name='c']" name="obfuscated">false</attr>
 
-	 
-	 <!--<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='DataDownloader']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='DataUploader']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='FaceDetector']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='FaceRequest']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='IdentityVerifier']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeakerVerifier']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechEvaluator']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechRecognizer']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechSynthesizer']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechTranscripter']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUnderstander']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUtility']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='TextUnderstander']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud']/class[@name='VoiceWakeuper']" name="extends">java.lang.Object</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d']/class[@name='a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d']/class[@name='c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d']/class[@name='c.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d']/class[@name='c.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d']/class[@name='d']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d']/class[@name='d.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e']/interface[@name='a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e']/interface[@name='a.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='a.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='a.c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='a.c.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='a.d']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='b.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='b.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/interface[@name='b.c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='c.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='c.b']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.cloud.a.e']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.e']/class[@name='b']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='a']" name="obfuscated">false</attr>
+	<!--<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='a.a']" name="obfuscated">false</attr>-->
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='a.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='b.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='d']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='d.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='e']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='e.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='e.a.a']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.cloud.a.g']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.g']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.g']/class[@name='b.a']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/interface[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/class[@name='c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/class[@name='c.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/class[@name='c.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/class[@name='c.c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/class[@name='c.d']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/class[@name='c.e']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/interface[@name='c.f']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/class[@name='d']" name="obfuscated">false</attr>
 
 
-	<attr  path="/api/package[@name='com.iflytek.cloud.msc.ist']/class[@name='IstSession']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud.msc.ist']/class[@name='MscTranscripter']" name="extends">java.lang.Object</attr>
-	<attr  path="/api/package[@name='com.iflytek.cloud.ui']/class[@name='RecognizerDialog']" name="extends">java.lang.Object</attr>-->
+	<attr path="/api/package[@name='com.iflytek.cloud.b']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.b']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.b']/class[@name='b.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.b']/class[@name='c']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='b.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='c.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='c.a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='d']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='d.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='d.a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='e']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='e.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='e.a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='f']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='f.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='f.a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='f.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='f.b.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='f.c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='f.c.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='g']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='h']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='h.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='h.a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='i']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='i.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='j']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='j.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='k']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='k.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='k.a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='k.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='k.b.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='k.c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.c.a']/class[@name='k.c.a']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='d']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='e']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='f']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='f.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='g']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='h']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='i']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/interface[@name='i.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='j']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='k']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='k.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='k.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util.l']/interface[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util.log']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util.log']/class[@name='DebugLog.a']" name="obfuscated">false</attr>
 
 
-	<remove-node  path="/api/package"/>
-	<!--<add-node path="/api">
-		<package name="com.iflytek.cloud" jni-name="com/iflytek/cloud">
-			<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="com.iflytek.cloud.a.f.d" jni-extends="Lcom/iflytek/cloud/a/f/d;" final="true" name="SpeechRecognizer" static="false" visibility="public" jni-signature="Lcom/iflytek/cloud/SpeechRecognizer;">
-				
-				<method abstract="false" deprecated="not deprecated" final="false" name="createRecognizer" jni-signature="(Landroid/content/Context;Lcom/iflytek/cloud/InitListener;)Lcom/iflytek/cloud/SpeechRecognizer;" bridge="false" native="false" return="com.iflytek.cloud.SpeechRecognizer" jni-return="Lcom/iflytek/cloud/SpeechRecognizer;" static="true" synchronized="true" synthetic="false" visibility="public">
-					<parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;">
-					</parameter>
-					<parameter name="p1" type="com.iflytek.cloud.InitListener" jni-type="Lcom/iflytek/cloud/InitListener;">
-					</parameter>
-				</method>
-				<method abstract="false" deprecated="not deprecated" final="false" name="getRecognizer" jni-signature="()Lcom/iflytek/cloud/SpeechRecognizer;" bridge="false" native="false" return="com.iflytek.cloud.SpeechRecognizer" jni-return="Lcom/iflytek/cloud/SpeechRecognizer;" static="true" synchronized="false" synthetic="false" visibility="public">
-				</method>
-				<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" jni-signature="(Lcom/iflytek/cloud/b/a;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
-					<parameter name="p0" type="com.iflytek.cloud.b.a" jni-type="Lcom/iflytek/cloud/b/a;">
-					</parameter>
-				</method>
-				<method abstract="false" deprecated="not deprecated" final="false" name="setParameter" jni-signature="(Ljava/lang/String;Ljava/lang/String;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
-					<parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;">
-					</parameter>
-					<parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;">
-					</parameter>
-				</method>
-			</class>
-		</package>
-	</add-node>-->
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/class[@name='b.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/class[@name='c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/class[@name='c.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/class[@name='c.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/interface[@name='c.c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/class[@name='c.d']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/class[@name='c.d.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/class[@name='d']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.record']/interface[@name='PcmRecorder.PcmRecordListener']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.resource']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.resource']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.resource']/class[@name='c']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.idata.extension']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.idata.extension']/class[@name='a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.idata.extension']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.idata.extension']/interface[@name='b.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.idata.extension']/class[@name='c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.idata.extension']/class[@name='c.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.idata.extension']/class[@name='IFlyCollectorExt.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.idata.extension.d']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.idata.extension.d']/class[@name='b']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.msc']/interface[@name='AIMIC.Listener']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.msc']/class[@name='MetaVAD.Instance']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.msc']/class[@name='VAD.VadData']" name="obfuscated">false</attr>
+
+
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='EvaluatorResult.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='FaceRequest.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='FaceRequest.a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='IdentityResult.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='IdentityVerifier.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='RecognizerResult.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechRecognizer.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechRecognizer.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUnderstander.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUnderstander.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUtility.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUtility.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='TextUnderstander.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='TextUnderstander.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='UnderstanderResult.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='WakeuperResult.a']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='GrammarListener.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='GrammarListener.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='GrammarListener.Stub.Proxy']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='LexiconListener.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='LexiconListener.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='LexiconListener.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='RecognizerListener.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='RecognizerListener.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='RecognizerListener.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='RecognizerResult.1']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/interface[@name='SpeakerVerifierAidl.DownloadListener']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SpeakerVerifierAidl.PassWord']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SpeechModuleAidl.1']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SpeechModuleAidl.2']" name="obfuscated">false</attr>
+
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SpeechUnderstanderListener.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SpeechUnderstanderListener.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SpeechUnderstanderListener.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SynthesizerListener.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SynthesizerListener.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SynthesizerListener.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SynthesizeToUrlListener.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SynthesizeToUrlListener.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='SynthesizeToUrlListener.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='TextUnderstanderListener.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='TextUnderstanderListener.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='TextUnderstanderListener.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='VerifierListener.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='VerifierListener.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='VerifierListener.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='WakeuperListener.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='WakeuperListener.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='WakeuperListener.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='VerifierResult.1']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech']/class[@name='WakeuperResult.1']" name="obfuscated">false</attr>
+
+
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeakerVerifier.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeakerVerifier.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeakerVerifier.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeechRecognizer.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeechRecognizer.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeechRecognizer.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeechSynthesizer.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeechSynthesizer.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeechSynthesizer.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeechUnderstander.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeechUnderstander.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ISpeechUnderstander.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ITextUnderstander.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ITextUnderstander.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='ITextUnderstander.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='IWakeuper.Default']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='IWakeuper.Stub']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.speech.aidl']/class[@name='IWakeuper.Stub.Proxy']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.cloud.ui']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.ui']/class[@name='a.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.ui']/class[@name='a.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.ui']/class[@name='a.c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.ui.b']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.ui.b']/class[@name='b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.ui.b']/class[@name='c']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.ui.b']/class[@name='c.a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.ui.b']/interface[@name='c.b']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.ui.b']/class[@name='d']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.ui.b']/class[@name='e']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.util.a.a']/class[@name='a']" name="obfuscated">false</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.util.a.a']/class[@name='b']" name="obfuscated">false</attr>
+
+	<attr path="/api/package[@name='com.iflytek.cloud.a.b']/class[@name='b']/field[@name='b']" name="name">BB</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.c']/class[@name='b']/field[@name='b']" name="name">BB</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='d.a']/field[@name='a']" name="name">DA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.c']/class[@name='a.a']" name="managedName">AA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='a.a']/field[@name='a']" name="name">FAAA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='a.a']" name="managedName">FAA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='b.a']/field[@name='a']" name="name">FBAA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='a.b']/field[@name='b']" name="name">FABB</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d']/class[@name='c']/field[@name='c']" name="name">DCC</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d']/class[@name='c.b']/field[@name='b']" name="name">DCBB</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.e']/class[@name='b']/field[@name='b']" name="name">EBB</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='e.a.a']" name="name">FEAA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.g']/class[@name='a']/field[@name='a']" name="name">GAA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.h']/class[@name='a']/field[@name='a']" name="name">HAA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.b']/class[@name='b']/field[@name='b']" name="name">BBB</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.b']/class[@name='b.a']/field[@name='a']" name="name">BBAA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util']/class[@name='a']/field[@name='a']" name="name">UAA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util.log']/class[@name='a']/field[@name='a']" name="name">ULAA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.resource']/class[@name='a']/field[@name='a']" name="name">RAA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.msc.util.log']/class[@name='DebugLog.a']/field[@name='a']" name="name">ULDA</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.resource']/class[@name='b']/field[@name='b']" name="name">RBB</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.resource']/class[@name='c']/field[@name='c']" name="name">RCC</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='FaceRequest.a.a']" name="managedName">FRAA</attr>
+
+
+	<attr path="/api/package[@name='com.iflytek.cloud.a.f']/class[@name='a']/method[@name='sendMsg' and count(parameter)=4]/parameter[2]" name="type">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='c.a']" name="extends">java.lang.Object</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud.a.d.e.b']/class[@name='c.a']" name="extends-generic-aware">java.lang.Object</attr>
+
+
+
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechSynthesizer']" name="argsType">CloudSpeechSynthesizer</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='IdentityListener']/method[@name='onError']" name="argsType">IdentityErrorEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='IdentityListener']/method[@name='onEvent']" name="argsType">IdentityEventEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='IdentityListener']/method[@name='onResult']" name="argsType">IdentityResultEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='RecognizerListener']/method[@name='onError']" name="argsType">RecognizerErrorEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='RecognizerListener']/method[@name='onEvent']" name="argsType">RecognizerEventEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='RecognizerListener']/method[@name='onResult']" name="argsType">RecognizerResultEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='RecognizerListener']/method[@name='onVolumeChanged']" name="argsType">RecognizerVolumeChangedEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='RequestListener']/method[@name='onEvent']" name="argsType">RequestEventEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='SpeechListener']/method[@name='onBufferReceived']" name="argsType">SpeechBufferReceivedEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='SpeechListener']/method[@name='onCompleted']" name="argsType">SpeechCompletedEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='SpeechListener']/method[@name='onEvent']" name="argsType">SpeechEventEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='SpeechUnderstanderListener']/method[@name='onError']" name="argsType">SpeechUnderstanderErrorEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='SpeechUnderstanderListener']/method[@name='onEvent']" name="argsType">SpeechUnderstanderEventEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='SpeechUnderstanderListener']/method[@name='onResult']" name="argsType">SpeechUnderstanderResultEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='SpeechUnderstanderListener']/method[@name='onVolumeChanged']" name="argsType">SpeechUnderstanderVolumeChangedEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='SynthesizerListener']/method[@name='onCompleted']" name="argsType">SynthesizerCompletedEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='SynthesizerListener']/method[@name='onEvent']" name="argsType">SynthesizerEventEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='TextUnderstanderListener']/method[@name='onError']" name="argsType">TextUnderstanderErrorEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='TextUnderstanderListener']/method[@name='onResult']" name="argsType">TextUnderstanderResultEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='TranscripterListener']/method[@name='onError']" name="argsType">TranscripterErrorEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='TranscripterListener']/method[@name='onEvent']" name="argsType">TranscripterEventEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='TranscripterListener']/method[@name='onResult']" name="argsType">TranscripterResultEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='TranscripterListener']/method[@name='onVolumeChanged']" name="argsType">TranscripterVolumeChangedEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='VerifierListener']/method[@name='onError']" name="argsType">VerifierErrorEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='VerifierListener']/method[@name='onEvent']" name="argsType">VerifierEventEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='VerifierListener']/method[@name='onResult']" name="argsType">VerifierResultEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='VerifierListener']/method[@name='onVolumeChanged']" name="argsType">VerifierVolumeChangedEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='WakeuperListener']/method[@name='onError']" name="argsType">WakeuperErrorEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='WakeuperListener']/method[@name='onEvent']" name="argsType">WakeuperEventEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='WakeuperListener']/method[@name='onResult']" name="argsType">WakeuperResultEventArgs</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='WakeuperListener']/method[@name='onVolumeChanged']" name="argsType">WakeuperVolumeChangedEventArgs</attr>
+
+
 </metadata>
