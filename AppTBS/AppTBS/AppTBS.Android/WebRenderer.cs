@@ -128,11 +128,8 @@ namespace AppTBS.Droid
                 //webView.Settings.DatabasePath=(this.getDir("databases", 0).getPath());
                 //webView.Settings.SetGeolocationDatabasePath(this.getDir("geolocation", 0)
                 //        .getPath()); 
-                webView.addJavascriptInterface(new WebViewJavaScriptFunction() {
 
-           
-            }, "Android");
-            webView.Settings.JavaScriptEnabled = true;
+                webView.Settings.JavaScriptEnabled = true;
                 webView.Settings.DomStorageEnabled = true;
                 SetNativeControl(webView);
 
