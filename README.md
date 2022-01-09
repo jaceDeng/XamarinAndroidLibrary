@@ -77,3 +77,5 @@ https://www.xfyun.cn/doc/tts/offline_tts/Android-SDK.html#_2%E3%80%81sdk%E9%9B%8
 
 
 ### 18、 百度地图
+
+### 19、新增饺子播放器UI 支持多种播放器内核
