@@ -1,0 +1,19 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<remove-node path="/api/package[starts-with(@name,'androidx')]"/>
+	<remove-node path="/api/package[@name='com.cgfay.filter.glfilter.base']/class[@name='GLImageGaussianBlurFilter']"/>
+	
+	<attr  path="/api/package[@name='com.devil.library.camera.listener']/interface[@name='OnRecordStateListener']/method[@name='onRecordFinish' and count(parameter)=1 and parameter[1][@type='com.devil.library.camera.params.RecordInfo']]"
+		   name="argsType"
+		   >RecordStateFinishEventArgs</attr>
+	<attr path="/api/package[@name='com.devil.library.camera.listener']/interface[@name='OnRecordListener']/method[@name='onRecording' and count(parameter)=2 and parameter[1][@type='com.devil.library.camera.params.MediaType'] and parameter[2][@type='long']]"
+		  
+		name="argsType"
+		   >RecordStateRecordingEventArgs</attr>
+</metadata>

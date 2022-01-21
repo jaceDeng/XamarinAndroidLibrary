@@ -79,3 +79,8 @@ https://www.xfyun.cn/doc/tts/offline_tts/Android-SDK.html#_2%E3%80%81sdk%E9%9B%8
 ### 18、 百度地图
 
 ### 19、新增饺子播放器UI 支持多种播放器内核
+
+### 20、安卓图片多媒体选择库 DVMediaSelector   仿造微信的
+绑定来源 https://github.com/Devil-Chen/DVMediaSelector
+
+<img src="https://github.com/Devil-Chen/DVMediaSelector/raw/master/screenshot/single_select.png" width="30%"  style="width:30%"/>

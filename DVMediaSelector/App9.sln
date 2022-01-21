@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App9", "App9\App9.csproj", "{509A5565-0580-4E10-B6D7-B655FF616B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.DVMediaSelector", "Xamarin.Android.DVMediaSelector\Xamarin.Android.DVMediaSelector.csproj", "{34BE0334-DC8E-4A2C-A75E-B1C190851105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{509A5565-0580-4E10-B6D7-B655FF616B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509A5565-0580-4E10-B6D7-B655FF616B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509A5565-0580-4E10-B6D7-B655FF616B13}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{509A5565-0580-4E10-B6D7-B655FF616B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509A5565-0580-4E10-B6D7-B655FF616B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509A5565-0580-4E10-B6D7-B655FF616B13}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{34BE0334-DC8E-4A2C-A75E-B1C190851105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BE0334-DC8E-4A2C-A75E-B1C190851105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BE0334-DC8E-4A2C-A75E-B1C190851105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BE0334-DC8E-4A2C-A75E-B1C190851105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {823DCE7A-6E1B-4422-9DF8-5A213D24E7B2}
+	EndGlobalSection
+EndGlobal
