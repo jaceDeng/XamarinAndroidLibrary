@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rtplibrary.Droid", "Rtplibr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTSPServer.Droid", "RTSPServer.Droid\RTSPServer.Droid.csproj", "{8057FA0B-253F-4CF1-9FE0-1D33DB96C04C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{9731C287-CDE8-480C-9932-05EABE1899C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,12 @@ Global
 		{8057FA0B-253F-4CF1-9FE0-1D33DB96C04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8057FA0B-253F-4CF1-9FE0-1D33DB96C04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8057FA0B-253F-4CF1-9FE0-1D33DB96C04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9731C287-CDE8-480C-9932-05EABE1899C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9731C287-CDE8-480C-9932-05EABE1899C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9731C287-CDE8-480C-9932-05EABE1899C4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9731C287-CDE8-480C-9932-05EABE1899C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9731C287-CDE8-480C-9932-05EABE1899C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9731C287-CDE8-480C-9932-05EABE1899C4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
