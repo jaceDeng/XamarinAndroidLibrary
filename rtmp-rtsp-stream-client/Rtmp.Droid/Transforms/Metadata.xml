@@ -1,0 +1,22 @@
+﻿<metadata>
+ 
+	<attr name="propertyName" path="/api/package[@name='com.pedro.rtmp.rtmp.message']/class[@name='RtmpMessage']/method[@name='getType' and count(parameter)=0]">
+		Type
+	</attr>
+	
+	
+	
+	<attr path="/api/package[@name='com.pedro.rtmp.rtmp.message.control']/class[@name='UserControl']/method[@name='getType' and contains(@return,'control.Type') ]"
+		  
+   name="propertyName"></attr>
+
+	<attr path="/api/package[@name='com.pedro.rtmp.rtmp.message.control']/class[@name='UserControl']/method[@name='getType' and contains(@return,'control.Type') ]"
+		  
+	name="managedName">GetTypeEnum</attr>
+
+	<attr name="managedName"
+		  path="/api/package[@name='com.pedro.rtmp.rtmp.message']/class[@name='SetPeerBandwidth.Type']"  >
+		Type_
+	</attr>
+
+</metadata>

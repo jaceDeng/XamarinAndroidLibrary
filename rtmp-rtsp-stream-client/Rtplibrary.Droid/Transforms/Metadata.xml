@@ -1,0 +1,15 @@
+﻿<metadata>
+ 
+
+	<attr path="/api/package[@name='com.pedro.rtplibrary.base']/class[contains(@name,'Base')]/method[@name='reConnect' and count(parameter)=2 and parameter[1][@type='long'] and parameter[2][@type='java.lang.String']]"
+		  name="visibility">public</attr>
+	<attr path="/api/package[@name='com.pedro.rtplibrary.multiple']/class[@name='MultiRtpDisplay']/method[@name='reConnect' and count(parameter)=2 and parameter[1][@type='long'] and parameter[2][@type='java.lang.String']]"
+		   name="visibility">public</attr>
+	 <attr path="/api/package[@name='com.pedro.rtplibrary.multiple']/class[@name='MultiRtpCamera1']/method[@name='reConnect' and count(parameter)=2 and parameter[1][@type='long'] and parameter[2][@type='java.lang.String']]"
+		     name="visibility">public</attr>
+
+	<attr path="/api/package[@name='com.pedro.rtplibrary.multiple']/class[@name='MultiRtpOnlyAudio']/method[@name='reConnect' and count(parameter)=2 and parameter[1][@type='long'] and parameter[2][@type='java.lang.String']]"
+		  name="visibility">public</attr>
+	<attr path="/api/package[@name='com.pedro.rtplibrary.multiple']/class[@name='MultiRtpCamera2']/method[@name='reConnect' and count(parameter)=2 and parameter[1][@type='long'] and parameter[2][@type='java.lang.String']]"
+		  name="visibility">public</attr>
+</metadata>
