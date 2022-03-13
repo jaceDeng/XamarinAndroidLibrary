@@ -84,3 +84,67 @@ https://www.xfyun.cn/doc/tts/offline_tts/Android-SDK.html#_2%E3%80%81sdk%E9%9B%8
 绑定来源 https://github.com/Devil-Chen/DVMediaSelector
 
 <img src="https://github.com/Devil-Chen/DVMediaSelector/raw/master/screenshot/single_select.png" width="30%"  style="width:30%"/>
+
+### 21 安卓推送RTSP 和RTMP到服务端 推送客户端 不依赖ffmpeg
+
+* [Xamarin.Android.Rtplibrary.Droid](https://www.nuget.org/packages/Xamarin.Android.Rtplibrary.Droid) [![NuGet](https://img.shields.io/nuget/v/Xamarin.Android.Rtplibrary.Droid.svg?label=NuGet)](https://www.nuget.org/packages/Xamarin.Android.Rtplibrary.Droid)
+使用方式
+### RTMP:
+
+```csharp
+//default
+//create builder
+RtmpCamera1 rtmpCamera1 = new RtmpCamera1(openGlView, connectCheckerRtmp);
+//start stream
+if (rtmpCamera1.PrepareAudio() && rtmpCamera1.PrepareVideo()) {
+  rtmpCamera1.StartStream("rtmp://yourEndPoint");
+} else {
+ /**This device cant init encoders, this could be for 2 reasons: The encoder selected doesnt support any configuration setted or your device hasnt a H264 or AAC encoder (in this case you can see log error valid encoder not found)*/
+}
+//stop stream
+rtmpCamera1.StopStream();
+//with params
+//create builder
+RtmpCamera1 rtmpCamera1 = new RtmpCamera1(openGlView, connectCheckerRtmp);
+//start stream
+if (rtmpCamera1.PrepareAudio(int bitrate, int sampleRate, boolean isStereo, boolean echoCanceler,
+      boolean noiseSuppressor) && rtmpCamera1.PrepareVideo(int width, int height, int fps, int bitrate, int rotation)) {
+  rtmpCamera1.StartStream("rtmp://yourEndPoint");
+} else {
+ /**This device cant init encoders, this could be for 2 reasons: The encoder selected doesnt support any configuration setted or your device hasnt a H264 or AAC encoder (in this case you can see log error valid encoder not found)*/
+}
+//stop stream
+rtmpCamera1.StopStream();
+```
+
+### RTSP:
+
+```csharp
+ //请先获取下摄像头  麦克风权限 文件读写权限
+            //create builder
+            //by default TCP protocol.
+            RtspCamera1 rtspCamera1 = new RtspCamera1(this, new ConnectCheckerRtsp());
+            //start stream
+            if (rtspCamera1.PrepareAudio() && rtspCamera1.PrepareVideo())
+            {
+                rtspCamera1.StartStream("rtsp://yourEndPoint");
+            }
+            else
+            {
+                /**This device cant init encoders, this could be for 2 reasons: The encoder selected doesnt support any configuration setted or your device hasnt a H264 or AAC encoder (in this case you can see log error valid encoder not found)*/
+            }
+            //stop stream
+//with params
+//create builder
+RtspCamera1 rtspCamera1 = new RtspCamera1(openGlView, connectCheckerRtsp);
+rtspCamera1.setProtocol(protocol);
+//start stream
+if (rtspCamera1.PrepareAudio(int bitrate, int sampleRate, boolean isStereo, boolean echoCanceler,
+      boolean noiseSuppressor) && rtspCamera1.PrepareVideo(int width, int height, int fps, int bitrate, int rotation)) {
+  rtspCamera1.StartStream("rtsp://yourEndPoint");
+} else {
+ /**This device cant init encoders, this could be for 2 reasons: The encoder selected doesnt support any configuration setted or your device hasnt a H264 or AAC encoder (in this case you can see log error valid encoder not found)*/
+}
+//stop stream
+rtspCamera1.StopStream();
+```
