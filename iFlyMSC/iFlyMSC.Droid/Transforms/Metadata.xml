@@ -190,5 +190,8 @@
 	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='WakeuperListener']/method[@name='onResult']" name="argsType">WakeuperResultEventArgs</attr>
 	<attr path="/api/package[@name='com.iflytek.cloud']/interface[@name='WakeuperListener']/method[@name='onVolumeChanged']" name="argsType">WakeuperVolumeChangedEventArgs</attr>
 
-
+	<remove-node path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUtility']/method[@name='c']"/>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUtility']" name="extends">java.lang.Object</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUtility']/method[@name='getEngineMode']" name="return">java.lang.Object</attr>
+	<attr path="/api/package[@name='com.iflytek.cloud']/class[@name='SpeechUtility']/method[@name='getEngineMode']" name="managedReturn">Java.Lang.Object</attr>
 </metadata>
