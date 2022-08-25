@@ -17,7 +17,7 @@ namespace SerialPortDemo
 {
     //https://github.com/cepr/android-serialport-api
     //ndk 相关源码在这可以下载自行编译
-
+    //如果用这个  就不要引入 我绑定的库
     [Register("com.example.x6.serial")]
     public class SerialPort : Java.Lang.Object
     {
@@ -26,7 +26,7 @@ namespace SerialPortDemo
         private FileInputStream mFileInputStream;
         private FileOutputStream mFileOutputStream;
         private const string Lib = @"serial_port";
-
+        
 
         [DllImport(Lib, EntryPoint = "Java_com_example_x6_serial_SerialPort_open")]
         private static extern System.IntPtr Open(System.IntPtr jnienv, System.IntPtr thclass, System.IntPtr path, int baudrate, int flags);
@@ -37,7 +37,7 @@ namespace SerialPortDemo
 
         public SerialPort(File device, int baudrate, int flags)
         {
-
+            throw new System.Exception("如果用这个 没64位需要自己编译 如果需要64位 用我引入的第三方库");
             //        检查访问权限，如果没有读写权限，进行文件操作，修改文件访问权限
             if (!device.CanRead() || !device.CanWrite())
             {
