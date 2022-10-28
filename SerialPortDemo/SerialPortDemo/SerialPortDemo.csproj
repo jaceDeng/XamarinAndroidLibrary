@@ -97,6 +97,12 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Serialport.Droid\Serialport.Droid.csproj">
+      <Project>{48ce5eda-6a26-4c48-8b56-beac3ee37ae5}</Project>
+      <Name>Serialport.Droid</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 		Other similar extension points exist, see Microsoft.Common.targets.

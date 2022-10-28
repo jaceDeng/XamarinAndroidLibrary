@@ -58,7 +58,7 @@
     <Folder Include="javadoc\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\tbssdk_44199.jar" />
+    <EmbeddedJar Include="Jars\tbssdk_44226.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
