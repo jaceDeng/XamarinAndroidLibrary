@@ -6,6 +6,13 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+	<remove-node path="/api/package[@name='com.tencent.mm.opensdk.diffdev']/interface[@name='OAuthListener']"/>
   <attr path="/api/package[@name='com.tencent.mm.opensdk.modelmsg']/class[@name='WXMediaMessage']/field[@name='mediaObject']" name="name">mediaObjectProperty</attr>
-  <attr path="/api/package[@name='com.tencent.mm.opensdk.modelbase']/class[@name='BaseResp']/field[@name='errCode']" name="name">errorCode</attr>
+  <attr path="/api/package[@name='com.tencent.mm.opensdk.modelbase']/class[@name='BaseResp']/field[@name='errCode']" name="managedName">ErrorCode</attr>
+	<attr path="/api/package[@name='com.tencent.mm.opensdk.diffdev']/interface[@name='OAuthListener']/method[@name='onAuthFinish' and count(parameter)=2 and parameter[1][@type='com.tencent.mm.opensdk.diffdev.OAuthErrCode'] and parameter[2][@type='java.lang.String']]"
+ name="eventName" ></attr>
+	<attr  path="/api/package[@name='com.tencent.mm.opensdk.diffdev']/interface[@name='OAuthListener']/method[@name='onAuthGotQrcode' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='byte[]']]"
+
+	name="eventName"></attr>
+	<attr path="/api/package[@name='com.tencent.mm.opensdk.diffdev']/interface[@name='OAuthListener']/method[@name='onQrcodeScanned' and count(parameter)=0]" name="eventName"></attr>
 </metadata>
