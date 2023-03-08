@@ -62,6 +62,7 @@
 
 ### 14、微信支付
 微信支付与分享安卓绑定库
+ [WeChat.Droid](https://www.nuget.org/packages/WeChat.Droid) [![NuGet](https://img.shields.io/nuget/v/WeChat.Droid.svg?label=NuGet)](https://www.nuget.org/packages/WeChat.Droid)
 
 ### 15、极光推送
 极光绑定库
