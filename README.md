@@ -148,3 +148,37 @@ if (rtspCamera1.PrepareAudio(int bitrate, int sampleRate, boolean isStereo, bool
 //stop stream
 rtspCamera1.StopStream();
 ```
+
+### 22 极速扫码绑定组件
+```
+ //需要判断有没有权限
+            MNScanConfig scanConfig = new MNScanConfig.Builder()
+                //是否震动
+                .IsShowVibrate(true)
+                //是否鸣叫
+                .IsShowBeep(false)
+                //是否显示扫码相册
+                .IsShowPhotoAlbum(true)
+
+                //显示闪光灯
+                .IsShowLightController(true)
+                .SetActivityOpenAnime(Resource.Animation.activity_anmie_in)
+                .SetActivityExitAnime(Resource.Animation.activity_anmie_out)
+                //自定义文案
+                .SetScanHintText("")
+                //.SetScanHintTextColor(colorText)
+                //.SetScanHintTextSize(TextUtils.IsEmpty(mEtHintTextSize.Text.ToString()) ? 14 : int.Parse(mEtHintTextSize.Text.ToString()))
+                .SetScanColor(colorLine)
+                // .SetSupportZoom(mCbSupportZoom.Checked)
+                // .SetLaserStyle(mRbScanlineGrid.Checked ? MNScanConfig.LaserStyle.Grid : MNScanConfig.LaserStyle.Line)
+                .SetBgColor(colorBackground)
+                  //   .SetGridScanLineColumn(TextUtils.IsEmpty(mEtGridlineNum.Text.ToString()) ? 30 : int.Parse(mEtGridlineNum.Text.ToString()))
+                  //  .SetGridScanLineHeight(TextUtils.IsEmpty(mEtGridlineHeight.Text.ToString()) ? 0 : int.Parse(mEtGridlineHeight.Text.ToString()))
+                  .SetFullScreenScan(true)
+                .SetResultPointConfigs(36, 12, 3, colorResultPointStroke, colorResultPoint)
+                //.SetStatusBarConfigs(colorStatusBar, mCbStatusDark.Checked)
+                //   .SetScanFrameSizeScale(30 / 100f)
+                //   .SetCustomShadeViewLayoutID(Resource.Layout.layout_custom_view, new MNCustomViewBindCallbackAnonymousInnerClass(this))
+                .InvokeBuilder();
+            MNScanManager.StartScan(this, scanConfig, new MNScanCallbackAnonymousInnerClass(this));
+```
